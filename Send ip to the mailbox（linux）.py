@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
@@ -34,8 +34,8 @@ sender = '15624985416@sina.cn'
 receiver = 'maxuehao123@outlook.com'
 subject = 'From Raspberry Pi '
 smtpserver = 'smtp.sina.cn'
-username = '15624985416'
-password = 'm104177'
+username = '*******'
+password = '******'
 
 message = MIMEText(ip, 'plain', 'utf-8')
 message['Subject'] = Header(subject, 'utf-8')
