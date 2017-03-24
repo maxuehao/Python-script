@@ -16,8 +16,8 @@ def send_emali():
     sender = '15624985416@sina.cn'
     receiver = 'maxuehao123@outlook.com'
     subject = 'From Otureo WEB server '
-    username = '15624985416'
-    password = 'm104177'
+    username = '*****'
+    password = '*****'
 
     message = MIMEText('web server cannot access ', 'plain', 'utf-8')
     message['Subject'] = Header(subject, 'utf-8')
